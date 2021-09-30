@@ -2,7 +2,7 @@
 main {
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: green;
     flex-direction: column;
     
 }
@@ -15,9 +15,10 @@ h1 {
 }
 
 .animals img {
-    width: 30vw;
     border-radius: 50%;
     cursor: pointer;
+    width: 30%;
+    height: 30%;
 
 }
 @keyframes shake {
